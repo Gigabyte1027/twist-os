@@ -12,7 +12,8 @@ body {
 	height: 85px;
 }
 .tab {
-	background-image: url('/twist-os/images/nonretina/iphone-ipod/dock%20half2.png');
+	background-image: url('/images/nonretina/iphone-ipod/dock%20half2.png');
+	background-size: 100%, 300%;
 	position: fixed;
 	bottom: 85px;
 	left: 0;
@@ -20,5 +21,5 @@ body {
 	height: 22px;
 }
 .tab:hover {
-	background-image: url('/twist-os/images/nonretina/iphone-ipod/dock%20half2%20focus.png');
+	
 }
