@@ -19,6 +19,6 @@ body {
 	width: 320px;
 	height: 22px;
 }
-.tab:focus {
+.tab:hover {
 	background-image: url('/twist-os/images/nonretina/iphone-ipod/dock%20half2%20focus.png');
 }
