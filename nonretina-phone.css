@@ -24,3 +24,6 @@ body {
 .tab:hover {
 	background-position: center;
 }
+.tab:focus {
+	background-position: bottom;
+}
