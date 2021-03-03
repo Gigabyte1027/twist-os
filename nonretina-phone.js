@@ -1,3 +1,3 @@
 function openset() {
-	document.getElementById('settings').style.left = '0';
+	document.getElementById('settings').style.left = '0px';
 }
