@@ -1,7 +1,7 @@
 body {
 	background-image: url('/twist-os/images/IMG_20200201_094027457.jpg');
-	background-repeat: no-repeat;
 	background-size: 640px, 640px;
+	overflow: hidden;
 }
 .dock {
 	background-image: url('/twist-os/images/nonretina/iphone-ipod/dock%20half.png');
@@ -26,4 +26,46 @@ body {
 }
 .tab:focus {
 	background-position: bottom;
+}
+
+.settings {
+	position: fixed;
+	background-image: url('/twist-os/images/bg.jpg');
+	background-size: 640px, 640px;
+	width: 320px;
+	height: 100%;
+	left: 320px;
+	top: 0;
+}
+.container {
+	position: relative;
+	background-image: url('/twist-os/images/nonretina/iphone-ipod/shine%20top.png'), -webkit-linear-gradient(top, rgba(255,255,255,0) 50%, rgba(255,255,255,0.2) 100%);
+	-webkit-box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,0.3), 0px 1px 5px 0px rgba(0,0,0,1);
+	background-repeat:repeat-x;
+	margin: 9px;
+	width: 293px;
+	height: 240px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+/*Icons*/
+.icon {
+	background-image: url('/twist-os/images/nonretina/iphone-ipod/blank.png');
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 61px;
+	height: 60px;
+}
+#msg {
+	background-image: url('/twist-os/images/nonretina/iphone-ipod/messages.png') !important;
+}
+#set {
+	background-image: url('/twist-os/images/nonretina/iphone-ipod/settings.png') !important;
+}
+#brw {
+	background-image: url('/twist-os/images/nonretina/iphone-ipod/browser.png') !important;
+}
+#stk {
+	background-image: url('/twist-os/images/nonretina/iphone-ipod/stocks.png') !important;
 }
