@@ -28,7 +28,7 @@ body {
 	background-position: bottom;
 }
 
-.settings {
+#settings {
 	position: fixed;
 	background-image: url('/images/bg.jpg');
 	background-size: 640px, 640px;
