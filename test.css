@@ -30,7 +30,7 @@ body {
 	background-position: bottom;
 }
 
-#settings {
+#settings, #about {
 	position: fixed;
 	background-image: url('/images/bg.jpg');
 	background-size: 640px, 640px;
@@ -40,6 +40,14 @@ body {
 	top: 0;
 	-webkit-transition-property: left;
     -webkit-transition-duration: 0.2s;
+}
+#about {
+	display: none;
+}
+#settings h4 {
+	margin-left: 10px;
+	margin-top: 2px;
+	margin-bottom: 2px;
 }
 #back {
 	background-image: url('/images/nonretina/iphone-ipod/back.png');
@@ -61,13 +69,36 @@ body {
 }
 .container {
 	position: relative;
-	background-image: url('/images/nonretina/iphone-ipod/shine%20top.png'), -webkit-linear-gradient(top, rgba(255,255,255,0) 50%, rgba(255,255,255,0.2) 100%);
+	background-image: url('/images/nonretina/iphone-ipod/shine%20top2.png'), -webkit-linear-gradient(top, rgba(255,255,255,0) 50%, rgba(255,255,255,0.2) 100%);
 	-webkit-box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,0.3), 0px 1px 5px 0px rgba(0,0,0,1);
 	background-repeat:repeat-x;
 	margin: 9px;
-	width: 293px;
-	padding: 5px;
+	width: 263px;
+	padding: 5px 20px;
 	border-radius: 5px;
+}
+.container p {
+	margin: 0;
+}
+.container hr {
+	background-color: rgba(255,255,255,0.3);
+	width: 100%;
+	padding: 0px 19px;
+	margin-left: -19px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	height: 1px;
+	border: none;
+}
+.easteregg {
+	background-image: url('/images/14169060ef0696f1c04bf04eab7caba1.png');
+	background-size: cover;
+  	position: absolute;
+	margin: 0;
+  	top: 50px;
+  	left: 100px;
+	width: 120px;
+	height: 120px;
 }
 
 /*Icons*/
